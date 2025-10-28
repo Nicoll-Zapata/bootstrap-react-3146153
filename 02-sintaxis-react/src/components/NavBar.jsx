@@ -4,9 +4,9 @@ import "../stylesheets/NavBar.css"
 export const NavBar = () => {
   return (
     <div>
-      <div>
-      <img src="" alt="" />
-      <h2>Extensions</h2>
+      <div className='primero' >
+      <img className='' src="" alt="" />
+      <h2 className='titulo'>Extensions</h2>
       </div>
       <button className="btn-mode">🌞</button>
     </div>
