@@ -1,0 +1,62 @@
+.general{
+    width: 100%;
+    padding: 20px;
+    background: #0d1224;
+    border-radius: 16px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.informacion{
+    display: flex;
+    gap: 15px;
+}
+.icono{
+    background: #cde5db;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    background: #1a2d2b;
+    border-radius: 6px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    opacity: 0.85;
+}
+.titulo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.remove{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove1{
+    border: none;
+    color: #bfc4d4;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.boton{
+    position: relative;
+    width: 42px;
+    height: 22px;
+    display: flex;
+    inset: 0;
+    background: rgb(231, 65, 65);
+    border-radius: 22px;
+    cursor: pointer;
+}
