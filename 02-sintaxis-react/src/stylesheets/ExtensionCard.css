@@ -7,11 +7,11 @@
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 80px;
 }
 .informacion{
     display: flex;
-    gap: 15px;
+    gap: 65px;
 }
 .icono{
     background: #cde5db;
@@ -37,6 +37,11 @@
 .titulo{
     font-size: 18px;
     font-weight: bold;
+    
+}
+
+button{
+    background-color: #0d1224;
 }
 .remove{
     display: flex;
