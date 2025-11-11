@@ -8,60 +8,73 @@ import { ProductCard } from './components/ProductCard'
 export const App = () => {
   return (
     <>
-    <NavBar/>
-    <div className='containerCards'> 
-    <ExtensionCard 
-     cardTitle="Google"
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    <ExtensionCard 
-     cardTitle=""
-     cardImage=""
-     cardDescription=""
-    />
-    
-    </div>
-    <h1>React + Bootstrap</h1>
+      <NavBar />
+      <div className='containerCards'>
+        <ExtensionCard
+          cardTitle="Google"
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
+        <ExtensionCard
+          cardTitle=""
+          cardImage=""
+          cardDescription=""
+        />
 
-    <LoginForm/>
+      </div>
+      <h1>React + Bootstrap</h1>
 
-    <ProductCard/>
+      <LoginForm />
+
+
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-4">
+            <ProductCard />
+        </div>
+          <div className="col-12 col-md-6 col-lg-4 mt-4 mt-md-0">
+            <ProductCard />
+          </div>
+          <div className="col-12 col-md-12 col-lg-4 mt-4 mt-lg-0">
+            <ProductCard />
+          </div>
+        </div>
+       </div>
 
     </>
 
