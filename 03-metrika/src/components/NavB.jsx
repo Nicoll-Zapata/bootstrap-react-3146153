@@ -1,13 +1,13 @@
-
-
+import "../stylesheets/NavB.css"
 export const NavB = () => {
   return (
-    <div className="Titulo">
-      <div className="mt-5" style={{ height: "80px" }}>
-        <h2 className='titulo1'>Metrika</h2>
-      </div>
+    <div className="Titulo mt-5" >
 
-      <div className="d-sm-flex column-gap-3">
+      <div className="d-flex justify-content-between " style={{ paddingLeft: "280px", paddingRight: "280px"}}> 
+
+      <h2 className="fs-1 mb-0" >Metrika</h2>
+
+      <div className="icons d-flex  gap-3 fs-3">
         <div className="bi bi-facebook"></div>
         <div className="bi bi-twitter"></div>
         <div className="bi bi-google"></div>
@@ -16,7 +16,7 @@ export const NavB = () => {
 
       </div>
 
-
+      </div>
 
     </div>
   )
