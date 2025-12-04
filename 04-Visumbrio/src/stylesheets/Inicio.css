@@ -1,0 +1,17 @@
+.hero {
+  max-width: 2050px;
+  box-shadow: 0px 0px 20px 20px #420F0D;
+  margin-top: 10vh;
+}
+.hero-img {
+    width: 100%;
+  border-radius: 2px;
+}
+.text{
+    width: 80%;
+    margin-left: 15vh;
+    font-size: 19px;
+    margin-top: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
