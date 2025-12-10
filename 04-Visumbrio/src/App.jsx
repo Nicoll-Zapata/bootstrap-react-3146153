@@ -1,5 +1,7 @@
 
 import "../src/stylesheets/Header.css"
+import { Desafios } from "./components/Desafios"
+import { Footer } from "./components/Footer"
 import { Inicio } from "./components/Inicio"
 import { Justificacion } from "./components/Justificacion"
 import { Tarjetas } from "./components/Tarjetas"
@@ -32,6 +34,10 @@ export const App = () => {
     <Tarjetas/>
 
     <Justificacion/>
+
+    <Desafios/>
+
+    <Footer/>
     
     </>
   )
