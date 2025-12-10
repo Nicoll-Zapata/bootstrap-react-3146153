@@ -1,6 +1,7 @@
 
 import "../src/stylesheets/Header.css"
 import { Inicio } from "./components/Inicio"
+import { Justificacion } from "./components/Justificacion"
 import { Tarjetas } from "./components/Tarjetas"
 
 export const App = () => {
@@ -29,6 +30,8 @@ export const App = () => {
     <Inicio/>
 
     <Tarjetas/>
+
+    <Justificacion/>
     
     </>
   )
