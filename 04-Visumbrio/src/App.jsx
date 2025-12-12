@@ -1,15 +1,18 @@
-
 import "../src/stylesheets/Header.css"
 import { Desafios } from "./components/Desafios"
 import { Footer } from "./components/Footer"
 import { Inicio } from "./components/Inicio"
 import { Justificacion } from "./components/Justificacion"
 import { Tarjetas } from "./components/Tarjetas"
+import {InicioTienda} from "./components/InicioTienda"
+import { Productos } from "./components/Productos"
+import {Pago} from "./components/Pago"
 
 export const App = () => {
   return (
-
     <>
+    <header>
+
      <div className="header">
 
       <div className="text-center pt-2">
@@ -29,6 +32,8 @@ export const App = () => {
 
     </div>
 
+    </header>
+
     <Inicio/>
 
     <Tarjetas/>
@@ -38,8 +43,12 @@ export const App = () => {
     <Desafios/>
 
     <Footer/>
+
+    <InicioTienda/>
+
+    <Productos/>
+
     
     </>
   )
 }
-
