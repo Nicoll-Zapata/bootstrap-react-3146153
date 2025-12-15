@@ -1,39 +1,29 @@
 import "../stylesheets/Tarjetas.css"
 
-export const Tarjetas = () => {
-  return (
-    <section className="objectives-section my-5">
-        <h2 className='text-center title'>NUESTROS OBJETIVOS</h2>
-
-        <div className="row">
-
-            <div className="col-12 col-md-4 ">
-                <div className="tarjeta p-5 ">
-                    <img className="tarjeta-img py-3" src="./src/assets/ojo.png" alt="" />
-                    <p className="info">Investigar y reflexionar sobre las acciones y dilemas éticos que enfrentan las personas cuando la población mundial alcanza niveles insostenibles, destacando las implicaciones a nivel social, económico y medioambiental.</p>
+export const Tarjetas = ({titulo, imagen1, imagen2, imagen3, texto1, texto2, texto3}) => {
+    return (
+        <section className="container text-center my-5">
+            <h3 className="mb-4">{titulo}</h3>
+            <div className="row g-4">
+                <div className="col-md-4">
+                    <div className="card-obj px-3 py-4 ">
+                        <img className="tarjeta-img py-3" src={imagen1} alt="" />
+                        <p>{texto1}</p>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card-obj px-3 py-4">
+                        <img className="tarjeta-img py-5" src={imagen2} alt="" />
+                        <p>{texto2}</p>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card-obj px-3 py-4">
+                        <img className="tarjeta-img3 py-5" src={imagen3} alt="" />
+                        <p>{texto3}</p>
+                    </div>
                 </div>
             </div>
-
-            
-            <div className="col-12 col-md-4">
-                <div className="tarjeta p-4">
-                    <img className="tarjeta-img-2 py-5" src="./src/assets/explorar.png" alt="" />
-                    <p className="info">Explorar la resiliencia humana y la capacidad de adaptación en tiempos de adversidad a través de testimonio de vida en casos reales.</p>
-                </div>
-            </div>
-
-            
-            <div className="col-12 col-md-4 ">
-                <div className="tarjeta p-4">
-                    <img className="tarjeta-img-3 py-5" src="./src/assets/ajustes.png" alt="" />
-                    <p className="info">Consolidar una recolección de referentes visuales que muestran la transformación de la identidad en tiempos de crisis, con el fin de analizar la destrucción del entorno a causa de las crisis sociales.</p>
-                </div>
-            </div>
-
-
-
-
-        </div>
-    </section>
-  )
+        </section>
+    );
 }

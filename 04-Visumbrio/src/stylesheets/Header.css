@@ -1,12 +1,12 @@
 .logo-img {
-  width: 280px;       
+  width: 270px;       
   object-fit: contain;
 }
 
 .menu-principal{
   background-color: #6D0E0A;
   border-radius: 1.5vh;
-  padding: 4px 0;
+  padding: 3px 0;
   margin: 0 auto;
   max-width: 900px;    
 }
@@ -14,6 +14,6 @@
 .menu-principal .nav-link {
   color: white ;
   margin: 0 40px;
-  font-size: 19px;
+  font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

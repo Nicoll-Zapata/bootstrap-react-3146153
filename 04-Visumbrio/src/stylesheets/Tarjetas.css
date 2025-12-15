@@ -1,30 +1,12 @@
-.objectives-section.row{
-   justify-content: center;
-   gap: 4vh;
-
+.card-obj {
+background: #280403;
+color: white;
+border-radius: 10px;
+height: 100%;
 }
-.title{
-    margin-top: 4vh;
-
+.tarjeta-img {
+width: 7rem;
 }
-.tarjeta{
-    width: 60%;
-    background-color: #280403;
-    border-radius: 1vh;
-    margin-top: 15vh;
-  text-align: center;
-  height: 80%;
-
-}
-.info{
-    color: white;
-}
-.tarjeta-img{
-  width: 33%;
-}
-.tarjeta-img-2{
-    width: 30%;
-}
-.tarjeta-img-3{
-    width: 18%;
+.tarjeta-img3{
+    width: 4rem;
 }
