@@ -1,0 +1,21 @@
+.tituli{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.product-img {
+max-height: 160px;
+object-fit: contain;
+transition: transform 0.5s ease;
+}
+
+
+.product-img:hover {
+transform: scale(1.09);
+}
+
+
+.nombre {
+font-size: 16px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
