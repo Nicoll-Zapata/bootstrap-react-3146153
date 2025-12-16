@@ -1,0 +1,9 @@
+.card-box {
+  color: white;
+  padding: 35px;
+  height: 130px;
+}
+
+.card-box.big {
+  height: 100%;
+}
